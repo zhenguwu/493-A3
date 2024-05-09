@@ -30,7 +30,7 @@ void setup(void) {
   // Serial.begin(9600);
   Mouse.begin();
   Keyboard.begin();
-  while (!Serial) delay(10);
+  // while (!Serial) delay(10);
 
   if (! lis.begin(0x18)) {
     Serial.println("Couldnt start");
